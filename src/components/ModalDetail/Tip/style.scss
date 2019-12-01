@@ -1,0 +1,86 @@
+.modal-tip-wrapper {
+  box-shadow: 30px 50px 60px 0 rgba(5, 22, 37, 0.08);
+  width: 580px;
+
+  img {
+    outline: none;
+  }
+
+  img[src=""] {
+    opacity: 0;
+  }
+
+  .tip-close-wrapper {
+    display: flex;
+    justify-content: flex-end;
+
+    .tip-close {
+      width: 48px;
+      height: 98px;
+    }
+  }
+
+  .tip-main {
+    border-radius: 10px;
+    background-color: #fff;
+    width: 580px;
+    min-height: 337px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .tip-header {
+      padding-top: 31px;
+      font-size: 32px;
+      color: #333e45;
+      line-height: 32px;
+      font-weight: 500;
+    }
+
+    .tip-content {
+      margin: 32px 40px 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 28px;
+      color: #333e45;
+
+      span {
+        color: #ff673f;
+      }
+    }
+
+    .tip-buttons {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 40px;
+
+      .tip-button {
+        flex: 1;
+        font-size: 28px;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 67.5px;
+        width: 240px;
+      }
+
+      .primary-button {
+        color: #fff;
+        background-image: linear-gradient(-135deg, #ff814f 0%, #ff673f 100%);
+      }
+
+      .default-button {
+        color: #ff673f;
+        background-color: #fff;
+        margin-right: 20px;
+        box-sizing: border-box;
+        border: 1px #ff673f solid;
+      }
+    }
+  }
+}

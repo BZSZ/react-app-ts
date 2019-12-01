@@ -1,0 +1,30 @@
+.good-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 10px;
+
+  .item {
+    width: 49%;
+
+    img {
+      width: 100%;
+      height: 100px;
+    }
+
+    .good-info {
+      display: flex;
+
+      .name {
+        color: #000;
+        font-weight: 500;
+        font-size: 14px;
+      }
+
+      .price {
+        color: gray;
+        font-size: 14px;
+      }
+    }
+  }
+}
